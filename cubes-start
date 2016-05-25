@@ -1,0 +1,3 @@
+#!/bin/bash
+SLICER_CONFIG=${SLICER_CONFIG:=slicer.ini}
+exec slicer serve $SLICER_CONFIG 
